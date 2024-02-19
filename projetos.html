@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/icon-female-user-32.png" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+        </nav>
+    </header>
+
+    <main class="apresentacao__projetos">
+
+
+        <section class="apresentacao__projetos__conteudo">
+
+            <h1 class="apresentacao__projetos__titulo">Meus últimos projetos</h1>
+
+            <div class="galeria-container">
+
+                <div class="conteudo">
+                    <img class="galeria-itens" src="assets/tocador.png" alt="Imagem projeto tocador de audiobook" onclick="clique('assets/tocador.png')">
+                    <p class="nome-secao">Aplicativo de Audiobook</p>
+                    <a class="descricao" href="https://player-audiobook.vercel.app/">Saiba mais</a>
+                </div>
+
+                <div class="conteudo">
+                    <img class="galeria-itens" src="assets/jogo.png" alt="Imagem projeto jogo do número secreto" onclick="clique('assets/jogo.png')">
+                    <p class="nome-secao">Jogo do Número Secreto</p>
+                    <a class="descricao" href="https://jogo-do-numero-secreto-theta-azure.vercel.app/">Saiba mais</a>
+                </div>
+
+                <div class="conteudo">
+                    <img class="galeria-itens" src="assets/calculadora.png" alt="Imagem projeto calculadora álcool ou gasolina" onclick="clique('assets/calculadora.png')">
+                    <p class="nome-secao">Calculadora Álcool ou Gasolina</p>
+                    <a class="descricao" href="https://calculadora-alcool-ou-gasolina.vercel.app/">Saiba mais</a>
+                </div>
+
+                <div class="conteudo">
+                    <img class="galeria-itens" src="assets/quiz.png" alt="Imagem projeto quiz" onclick="clique('assets/quiz.png')">
+                    <p class="nome-secao">Quiz</p>
+                    <a class="descricao" href="https://quiz-omega-lime.vercel.app/">Saiba mais</a>
+                </div>
+
+                <div class="conteudo">
+                    <img class="galeria-itens" src="assets/calculadora-gorjetas.png" alt="Imagem projeto quiz" onclick="clique('assets/calculadora-gorjetas.png')">
+                    <p class="nome-secao">Calculadora de Gorjetas</p>
+                    <a class="descricao" href="https://calculadora-gorjetas-xi.vercel.app/">Saiba mais</a>
+                </div>
+                
+            </div>
+
+
+            <div id="janelaModal">
+                <span id="btnModal">x</span>
+                <img id="imgModal">
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <footer class="rodape">
+        <p> <strong>FEITO COM <span style='font-size:22px;'>&#x2665;</span> POR </strong> ANA BEATRIZ SPILLER <span style='font-size:24px;'>&#10625;</span> <strong> 2024 </strong> </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

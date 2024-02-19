@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/icon-female-user-32.png" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+        </nav>
+    </header>
+    <main class="apresentacao__about">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+            <p class="apresentacao__conteudo__texto">Sou uma desenvolvedora iniciante apaixonada por desafios e movida pela curiosidade. Busco aprender continuamente e contribuir para projetos que fazem a diferença. Cada linha de código neste portfolio é uma expressão da minha dedicação em aprender e crescer. <br><br> Estou animada para construir uma carreira sólida no mundo da tecnologia e pelas oportunidades que essa jornada me reserva. <br><br> Convido você a explorar meu portfolio, onde cada projeto reflete não apenas o que eu sei, mas o que estou ansiosa para descobrir!</p>
+        
+        </section>
+
+        <section class="formulario">
+            <h2 class="apresentacao__conteudo__subtitulo">Entre em contato</h2>
+            <form action="https://formsubmit.co/beatrizspiller@gmail.com" 
+                  method="POST"
+                  class="form">
+
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                <button type="submit">Enviar</button>
+           </form>
+
+
+
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <p> <strong>FEITO COM <span style='font-size:22px;'>&#x2665;</span> POR </strong> ANA BEATRIZ SPILLER <span style='font-size:24px;'>&#10625;</span> <strong> 2024 </strong> </p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
