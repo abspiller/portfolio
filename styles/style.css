@@ -222,6 +222,7 @@ body {
     justify-content: center;
     height: 83vh;
     margin: 0;   
+    font-family: var(--fonte-titulo);
 }
 
 /* Galeria */
