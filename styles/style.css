@@ -344,7 +344,7 @@ img {
 
   /* Fim Janela Modal */
 
-@media (min-width: 480px ) and (max-width: 800px) {
+@media (min-width: 300px ) and (max-width: 800px) {
   .cabecalho {
     padding: 10%;
   }
